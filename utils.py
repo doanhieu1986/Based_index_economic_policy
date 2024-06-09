@@ -254,3 +254,20 @@ def df_moit(url, page_no):
               }
     return pd.DataFrame(df_moit)
 
+import pyodbc
+
+conn_str = (
+    r'DRIVER={ODBC Driver 17 for SQL Server};'
+    r'SERVER=192.168.1.235;'
+    r'DATABASE=DOANHIEU;'
+    r'UID=doanhieu;'
+    r'PWD=12345678'
+)
+
+# Create a connection
+try:
+    conn = pyodbc.connect(conn_str)
+    cursor = conn.cursor()
+    print("Connected successfully!")
+except pyodbc.Error as e:
+    print("Connection failed:", e)
