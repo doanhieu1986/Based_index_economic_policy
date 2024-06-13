@@ -81,7 +81,7 @@ def crawl_mof (base_url, output_file, start_page, end_page):
     print(df)
 
 crawl_mof('https://mof.gov.vn/webcenter/portal/tttc/pages_r/o/hdntc?selectedPage={}&docType=TinBai&mucHienThi=1902', 
-          '/Users/hieudoan/PROJECTS/INDEX 2023//result/mof_hdntc.csv',2,2)
+          '/Users/hieudoan/PROJECTS/INDEX 2023//result/mof_hdntc.csv',3,3)
 
 def crawl_moit (base_url, output_file, start_page, end_page):
     # base_url: url with format that need to be crawled
