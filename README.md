@@ -1,4 +1,3 @@
-# Based_index_economic_policy
   # Time format
   # moit_smy: yyyy-mm-dd
   # mof_smy: yyyy-mm-dd
